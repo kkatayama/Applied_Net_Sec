@@ -1,14 +1,14 @@
 #Applied Network Security
 ## APT Kill Chain
-![apt.png](apt.png)
+![images/apt.png](images/apt.png)
 
 ## IoC
-![ioc.png](ioc.png)
+![images/ioc.png](images/ioc.png)
 #Quick Tunnel to Hide Traffic
 ```bash
 ssh -D 1337 -f -C -q -N guest@sokotaro.hopto.org -p 42286
 ```
-![proxy.png](proxy.png)
+![images/proxy.png](images/proxy.png)
 
 #Vulnerability Scanners
 ##openvas
@@ -19,14 +19,14 @@ ssh -D 1337 -f -C -q -N guest@sokotaro.hopto.org -p 42286
 
 #Network Scanners
 ##Network Utility
-![net_util.png](net_util.png)
+![images/net_util.png](images/net_util.png)
 
 ##Wireless Diagnostics
-![wifi_debug.png](wifi_debug.png)
+![images/wifi_debug.png](images/wifi_debug.png)
 
 ##Wireless Explorer (external)
 [https://en.wikipedia.org/wiki/WiFi_Explorer](https://en.wikipedia.org/wiki/WiFi_Explorer)
-![wifi_explorer.png](wifi_explorer.png)
+![images/wifi_explorer.png](images/wifi_explorer.png)
 
 ##dnsmap
 [https://tools.kali.org/information-gathering/dnsmap](https://tools.kali.org/information-gathering/dnsmap)
