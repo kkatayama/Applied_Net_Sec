@@ -1,34 +1,39 @@
-#Applied Network Security
+# Applied Network Security
+
 ## APT Kill Chain
 ![images/apt.png](images/apt.png)
 
 ## IoC
 ![images/ioc.png](images/ioc.png)
-#Quick Tunnel to Hide Traffic
+
+# Quick Tunnel to Hide Traffic
 ```bash
 ssh -D 1337 -f -C -q -N guest@sokotaro.hopto.org -p 42286
 ```
+
 ![images/proxy.png](images/proxy.png)
 
-#Vulnerability Scanners
-##openvas
-[]()
+# Vulnerability Scanners
 
-##nessus
+## openvas
+[https://www.greenbone.net/en/vulnerability-management-for-universities/](https://www.greenbone.net/en/vulnerability-management-for-universities/)
+
+## nessus
 [https://www.tenable.com/products/nessus/nessus-plugins/thank-you-for-registering](https://www.tenable.com/products/nessus/nessus-plugins/thank-you-for-registering)
 
-#Network Scanners
-##Network Utility
+# Network Scanners
+
+## Network Utility
 ![images/net_util.png](images/net_util.png)
 
-##Wireless Diagnostics
+## Wireless Diagnostics
 ![images/wifi_debug.png](images/wifi_debug.png)
 
-##Wireless Explorer (external)
+## Wireless Explorer (external)
 [https://en.wikipedia.org/wiki/WiFi_Explorer](https://en.wikipedia.org/wiki/WiFi_Explorer)
 ![images/wifi_explorer.png](images/wifi_explorer.png)
 
-##dnsmap
+## dnsmap
 [https://tools.kali.org/information-gathering/dnsmap](https://tools.kali.org/information-gathering/dnsmap)
 
 ```bash
@@ -166,8 +171,7 @@ IP address #1: 128.175.176.20
 
 ```
 
-##nmap
-
+## nmap
 ```bash
 nmap -sS -A -o lan_specs 192.168.1.0/24
 ```
@@ -176,7 +180,7 @@ nmap -sS -A -o lan_specs 192.168.1.0/24
 db_nmap -sS -Pn -A 192.168.0.120
 ```
 
-##tcpdump
+## tcpdump
 ```
 capture: 
 sudo tcpdump -i en0 -s 0 -B 524288 -w dump.pcap
